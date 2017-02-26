@@ -10,6 +10,6 @@ def connectArduino(portName):
 
 
 
-
+#comment
 connectArduino('ACM0').write('5')
 
