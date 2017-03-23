@@ -9,3 +9,4 @@ def drive(dir,angle):
    basic.connectArduino('ACM0').write(command)
         
 
+drive(0,360*4)
