@@ -25,6 +25,8 @@ class farmBot:
 		time.sleep(2)
 		return ser
 
+	def driveTrial(self, degree):
+		self.serialConnection.write(degree)
 
 	def driveAxis(self, axis, degree):
 		self.serialConnection.write(axis+' '+degree)
